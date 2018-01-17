@@ -1,0 +1,15 @@
+<!--pages/welfareinfo/welfareinfo.wxml-->
+<view class='m-body'>
+  <view class='m-body1'></view>
+  <view class='m-ticket-part1'>
+    <view class='m-ticket-part2'>提货券<view class='m-ticket-part7' bindtap="gettip" data-name="{{welfareAddress}}"><a class='m-a1'>?</a><a class='m-a2'>使用说明</a></view></view>
+    <view class='m-ticket-part3'><image class='m-img1' src='../img/1.jpg'></image></view>
+  </view>
+    <view class='m-body2'></view>
+    <view class='m-ticket-part4'>领取地址<a class='m-a3'>{{welfareAddress}}</a></view>
+    <view class='m-body3'></view>
+    <view class='m-ticket-part5'><image class='m-img2' src='http://ifuli.didaobest.com/themes/mobile/images/wfl_top.png'/></view>
+    <view class='m-ticket-part6'></view>
+    <view class='m-ticket-part5'><image class='m-img2' src='http://ifuli.didaobest.com/themes/mobile/images/wfl_bottom.png'/></view>
+    <view class='m-body4'></view>
+</view>

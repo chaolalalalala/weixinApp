@@ -1,0 +1,110 @@
+page{
+  width: 100%;
+  height: 100%;
+  background: #F2F2F2;
+}
+.c-swiper{
+  width: 100%;
+  height:400rpx;
+}
+.c-swiper image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.c-input1{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 10rpx;
+}
+.c-input{
+  width: 700rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid #E9E9E9;
+  margin: 0 auto;
+}
+.c-phone{
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+.c-phone .c-phoneNum{
+  width: 200rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  font-size:36rpx;
+  color:#020202;
+  display: block;
+  float: left;
+}
+.c-phone input{
+  width: 400rpx;
+  height: 100%;
+  display: block;
+  float: left;
+  margin-left: 20rpx;
+  font-size:36rpx;
+}
+.c-phone .c-Prompt{
+  width: 230rpx;
+  height:100%;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  padding-top:30rpx;
+  color:red;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.c-input2{
+  width: 700rpx;
+  height: 100rpx;
+  margin: 0 auto;
+}
+.c-Verification{
+  width: 100%;
+  height:100%;
+}
+.c-Verification .c-VerificationNum{
+  width: 200rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  font-size:36rpx;
+  color:#020202;
+  display: block;
+  float: left;
+}
+.c-Verification input{
+  width: 225rpx;
+  height: 100%;
+  display: block;
+  float: left;
+  margin-left: 20rpx;
+  font-size:36rpx;
+}
+.c-btn{
+  width: 255rpx;
+  height: 100%;
+  line-height: 100rpx;
+  font-size:32rpx;
+  float: right;
+  border-left: 1rpx solid #E9E9E9;
+  text-align: center;
+  color:#B7B7B7;
+}
+.c-start{
+  width: 700rpx;
+  height: 100rpx;
+  margin:0 auto;
+  border:1rpx solid #8EC18E;
+  background: rgba(142,193,142,1);
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 34rpx;
+  margin-top: 100rpx;
+  border-radius: 10rpx;
+}

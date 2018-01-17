@@ -1,0 +1,114 @@
+/* pages/welfareinfo/welfareinfo.wxss */
+.m-body{
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5;
+}
+.m-body1{
+  height: 16rpx;
+  background-color: #F5F5F5;
+}
+.m-ticket-part1{
+  height: 240rpx; 
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  background-color: white;
+  border: 2rpx solid #d3d3d3;
+  border-radius:4rpx;
+}
+.m-ticket-part2{
+  height: 68rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  padding-top:20rpx;
+  padding-left: 20rpx;
+  border-bottom: 2rpx solid #d3d3d3;
+}
+.m-a1{
+  margin-top:8rpx;
+  margin-right: 16rpx; 
+  display: block;
+  float: right;
+  font-size: 20rpx;
+  color: #0e88eb;
+  width: 22rpx;
+  border: 2rpx solid #0e88eb;
+  line-height: 22rpx;
+  text-align: center;
+  border-radius:50%;
+}
+.m-a2{
+  margin-top:6rpx;
+  display: block;
+  float: right;
+  font-size: 22rpx;
+  color: #0e88eb;
+
+}
+.m-ticket-part3{
+position: relative;
+height: 162rpx;
+}
+.m-img1{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top:-66rpx;
+  margin-left: -60rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.m-body2{
+  height: 12rpx;
+  background-color: #F5F5F5;
+}
+.m-ticket-part4{
+  height: 70rpx; 
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  background-color: white;
+  border: 2rpx solid #d3d3d3;
+  border-radius:4rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  padding-top:20rpx;
+  padding-left: 20rpx;
+}
+.m-a3{
+  margin-top:10rpx;
+  margin-right: 16rpx;
+  float: right;
+  line-height: 24rpx;
+  font-size: 24rpx;
+  color: #babcbc;
+  display: block;
+  overflow: hidden;
+  width: auto;
+  max-width: 550rpx;
+  max-height: 24rpx;
+}
+.m-body3{
+  height: 16rpx;
+}
+.m-img2{
+  height: 20rpx;
+  width: 100%;
+  display: block;
+}
+.m-ticket-part5{
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  height: 20rpx;
+}
+.m-ticket-part6{
+  height: 256rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  background: #f6c27f;
+}
+.m-body4{
+  height: 100%;
+}
+.m-ticket-part7{
+  float: right;
+}

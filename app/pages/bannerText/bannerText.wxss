@@ -1,0 +1,7 @@
+/* pages/bannerText/bannerText.wxss */
+page{
+  box-sizing: border-box;
+}
+.wxParse{
+  box-sizing: border-box;
+}

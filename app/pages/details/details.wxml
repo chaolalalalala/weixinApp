@@ -1,0 +1,40 @@
+<view class="c-welfareTitle">
+    {{welfareTitle}}
+</view>
+<view class="c-welfareTime">
+    {{welfareTime}}
+</view>
+<view class="c-welfareDetails">
+    {{welfareDetails}}
+</view>
+<view class='c-voteTitle'>
+    {{vote.voteTitle}}
+</view>
+<view class='c-voteDetails'>
+    <view class='c-voteDetailsTitle'>
+        {{vote.voteDetailsTitle}}
+    </view>
+    <view class='c-voteCon' wx:for="{{vote.voteDetailsCon}}">
+      <view class='c-voteConTitle'>
+          {{item.voteConTitle}}
+      </view>
+      <view class='c-voteD'>
+        <image src='{{item.voteConUrl}}'></image>
+        <view class='c-voteConText'>
+          {{item.voteConText}}
+        </view>
+      </view>
+      <view class='c-votePercentage'>
+          <progress percent="{{item.votePercentage}}" show-info color="#F0BF2E"/>
+          <view class='c-voteSum'>
+            {{item.voteSum}}人
+          </view>
+          <radio-group class="radio-group">
+              <radio checked="false" />
+          </radio-group>
+      </view>
+    </view>
+</view>
+<view class='c-foot'>
+  说明：管理员将于选取时间结束后，同意发放电子福利劵，届时您可到"年节福利-我的福利"中查看福利详情！
+</view>

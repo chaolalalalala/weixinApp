@@ -1,0 +1,37 @@
+
+<swiper indicator-dots="{{swiper.indicatorDots}}" indicator-active-color="{{swiper.indicatorActiveColor}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" class='c-swiper'>
+    <swiper-item wx:for='{{swiper.imgUrls}}' wx:key='{{index}}'>
+      <navigator url='../bannerText/bannerText?index={{index}}'>
+          <image src="{{item}}" class="slide-image" width="355" height="196"/>
+      </navigator>
+    </swiper-item>
+</swiper>
+
+<view class='c-con' wx:for="{{welfareLists}}" wx:key='index'>
+    <view class='c-welfareType'>
+      {{item.welfareType}}
+    </view> 
+    <view class='c-time'>
+      {{item.startTime}}
+    </view>
+    <navigator url='../details/details?welfareId={{item.welfareId}}'>
+    <view class='c-welfareImgUrl'>
+      <image src='{{item.imgUrl}}'></image>
+    </view>
+    <view class='c-allTime'>
+        起止时间：{{item.startTime}} - {{item.endTime}}
+    </view>
+    </navigator>
+    <view class='c-welfareStatus'>
+        <view>{{item.welfareType}}</view> <view></view><text>{{item.welfareStatus}}</text> 
+        <text>阅读全文</text>
+    </view>
+</view>
+
+<view class='c-user'>
+  <navigator url='###'>
+  <image src='../../images/peple.png'></image>
+  <view class='c-news' style='display:{{show}}'></view>
+  </navigator>
+</view>

@@ -1,0 +1,21 @@
+<!--pages/userwelfare/userwelfare.wxml-->
+<view class='m-portrait'>
+  <view class='m-portrait-part1'>
+    <image></image>   
+  </view>
+  <view class='m-portrait-part3'>{{mobile}}</view>
+</view>
+<view class='m-userwelfare' wx:for='{{userwelfare}}' wx:key='{{index}}'>
+<view class='m-userwelfare-part1'>{{item.welfareTitle}}</view>
+<view class='m-userwelfare-part2'>
+<image class='m-image1' src='{{item.welfareImgUrl}}'/>
+<view class='m-userwelfare-part3'>{{item.welfareDescription}}</view>
+</view>
+<view class='m-userwelfare-part4'>
+<view class='m-userwelfare-part5'>{{item.welfareType}}</view>
+<view class='m-userwelfare-part6'>
+<a class="{{item.welfareStatus=='已领取' ? 'm-a2':'m-a3'}}">{{item.welfareStatus}}</a>
+</view>
+<view class='m-a1' bindtap='getid' id='{{item.welfareId}}'>查看详情</view>
+</view>
+</view>

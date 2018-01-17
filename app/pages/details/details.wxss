@@ -1,0 +1,132 @@
+.c-welfareTitle{
+  width: 100%;
+  height:100rpx;
+  padding: 0 40rpx;
+  font-size: 42rpx;
+  color:#000;
+  line-height: 100rpx;
+}
+.c-welfareTime{
+  width: 100%;
+  height:50rpx;
+  color:#9D9D9D;
+  font-size:30rpx;
+  padding: 0 40rpx;
+}
+.c-welfareDetails{
+  width: 100%;
+  height:auto;
+  font-size:36rpx;
+  color:#AEAEAE;
+  padding: 100rpx 40rpx 200rpx;
+  box-sizing: border-box;
+  line-height: 60rpx;
+}
+.c-voteTitle{
+  width: 100%;
+  height:100rpx;
+  font-size: 42rpx;
+  color:#000;
+  line-height: 100rpx;
+  text-align: center;
+  display: block;
+}
+.c-voteDetails{
+  width: 700rpx;
+  height:auto;
+  margin: 0 auto;
+  border:  1px solid #EFEFEF;
+  border-radius: 10rpx;
+  margin-top: 70rpx;
+}
+.c-voteDetailsTitle{
+  width: 100%;
+  height:80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color:#020202;
+  font-size:30rpx;
+  border-bottom: 1px solid #efefef
+}
+.c-voteCon{
+  width: 100%;
+  height: auto;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #efefef
+}
+.c-voteConTitle{
+    width: 100%;
+    height:80rpx;
+    font-size: 34rpx;
+    color:#000;
+    line-height: 80rpx;
+}
+.c-voteD{
+  width: 100%;
+  height:240rpx;
+  position: relative;
+}
+.c-voteD image{
+  width: 150rpx;
+  height:150rpx;
+  display: block;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 10rpx;
+  margin: auto;
+}
+.c-voteConText{
+  width: 400rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  color:#494949;
+  font-size: 34rpx;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  margin: auto;
+}
+.c-votePercentage{
+  width: 100%;
+  height:100rpx;
+}
+.c-votePercentage progress{
+  width: 70%;
+  float: left;
+  margin-top:10rpx;
+}
+.c-voteSum{
+  width: 20%;
+  height:100%;
+  text-align: center;
+  float: left;
+  line-height: 66rpx;
+}
+.c-votePercentage .radio-group{
+  width: 40rpx;
+  height:40rpx;
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  display: block;
+}
+.radio-group radio{
+  width: 40rpx!important;
+  height:40rpx!important;
+  display: block;
+  transform:scale(.8);
+}
+.c-foot{
+  width: 100%;
+  height:220rpx;
+  font-size: 30rpx;
+  color:#999999;
+  background: #F0EFF4;
+  padding: 40rpx;
+  line-height: 50rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}

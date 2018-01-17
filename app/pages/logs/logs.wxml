@@ -1,0 +1,40 @@
+
+<swiper indicator-dots="{{swiper.indicatorDots}}" indicator-active-color="{{swiper.indicatorActiveColor}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" class='c-swiper'>
+    <swiper-item wx:for='{{swiper.imgUrls}}' wx:key="{{index}}">
+        <image src='{{item}}' class="slide-image" width="355" height="196"/>
+    </swiper-item>
+</swiper>
+<view class='c-input1'>
+    <view class='c-input'>
+        <view class='c-phone'>
+            <view class='c-phoneNum'>
+                手机号码
+            </view>
+            <input type='text' placeholder='填写手机号' placeholder-style='#B7B7B7' bindinput="phoneNum" bindfocus="bindfocus">
+            
+            </input>
+            <view class='c-Prompt' hidden="{{phonePrompt}}">
+                {{Prompt}}
+            </view>
+        </view>
+    </view>
+    <view class='c-input2'>
+        <view class='c-Verification'>
+            <view class='c-VerificationNum'>
+                验证码
+            </view>
+            <input type='text' placeholder='输入验证码' placeholder-style='#B7B7B7' bindinput="VerificationNum">
+            
+            </input>
+            <view class='c-btn' bindtap="{{btnFun}}">
+                {{btnText}}
+            </view>
+        </view>
+    </view>
+</view>
+<navigator>
+  <view class='c-start' bindtap='login'>
+          开始
+  </view>
+</navigator>

@@ -1,0 +1,100 @@
+/* pages/userwelfare/userwelfare.wxss */
+.m-portrait{
+  height: 296rpx;
+  width: 100%;
+  background: rgb(241,244,248);
+}
+.m-portrait-part1{
+  margin-top: 60rpx;
+  height: 108rpx;
+  margin-bottom:36rpx; 
+  width: 100%;
+}
+.m-portrait-part3{
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m-userwelfare{
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+  margin-bottom: 6rpx;
+}
+.m-userwelfare-part1{
+  border:5rpx #f0f0f0 solid;
+  height: 60rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  color: #A0A2A2;
+  border-radius:4rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m-userwelfare-part2{
+  height: 132rpx;
+  border-left:5rpx #f0f0f0 solid;
+  border-right:5rpx #f0f0f0 solid;
+  border-bottom:5rpx #f0f0f0 solid;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+   border-radius:4rpx;
+}
+.m-userwelfare-part3{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  float: left;
+  width: 550rpx;
+  height: 90rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m-image1{
+  width: 110rpx;
+  height: 110rpx;
+  float: left;
+  display: block;
+
+}
+.m-userwelfare-part4{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 60rpx;
+  border-left:5rpx #f0f0f0 solid;
+  border-right:5rpx #f0f0f0 solid;
+  border-bottom:5rpx #f0f0f0 solid;
+   border-radius:4rpx;
+}
+.m-userwelfare-part5{
+  color: #FDCD6F;
+  font-size: 26rpx;
+  width: 120rpx;
+  height: 40rpx;
+  border-right: 5rpx rgb(196,196,199) solid;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m-userwelfare-part6{
+  float: left;
+  padding-left:8rpx;
+  font-size: 26rpx;
+}
+.m-a1{
+  float:right;
+  display:block;
+  font-size: 26rpx;
+}
+.m-a2{
+  color: #dbdbdb;
+}
+.m-a3{
+  color: red;
+  height: 40rpx;
+  width: 80rpx;
+  overflow: hidden;
+  display: block;
+}
